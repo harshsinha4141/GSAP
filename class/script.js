@@ -1,13 +1,13 @@
 var tl=gsap.timeline()
 tl.from("#left",{
-    y:-100,
+    y:-30,
     duration: 1,
     delay: 0.5,
     opacity: 0,
 })
 
 tl.from("#right h4",{
-    y:-100,
+    y:-30,
     duration: 1,
     opacity: 0,
     stagger: 0.2,
