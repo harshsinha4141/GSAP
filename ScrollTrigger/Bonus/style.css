@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'DM Sans';
+    src: url(D:\Shreyians\Front-End\GSAP\Bonus\DM SANS.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/209/ALH_Odisej_exterior_aerial_07-scaled-2880x0.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+nav{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5vw 4vw 1vw 2vw;
+}
+
+#nav-part1 i{
+    padding: 1vw 2vw;
+    height: 2vw;
+    width: 4vw;
+    font-size: 2vw;
+    color: #000;
+    cursor: pointer;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+#nav-part2 button{
+    height: 2.5vw;
+    width: fit-content;
+    padding: 0.5vw 1.5vw;
+    font-size: 1vw;
+    color: #E3E3C4;
+    background-color: #444B34;
+    border: none;
+    border-radius: 1.5vw;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+#nav-part2 :nth-child(1){
+    background-color: #fff;
+    color: #444B34;
+    border: 1px solid #E3E3C4;
+}
+
+#nav-part2 :nth-child(1):hover{
+    background-color: #E3E3C4;
+    transition: all 0.3s ease-in-out;
+}
+
+#intro{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 1vw; */
+}
+
+#intro h1{
+    font-size: 5vw;
+    color: #444B34;
+    text-align: center;
+    font-weight: 400;
+}
+
+#intro h3{
+    font-size: 1.5vw;
+    color: #444B34;
+    text-align: center;
+    font-weight: 300;
+    font-family: DM Sans, sans-serif;
+}
+
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #556043;
+    padding: 5vw;
+}
+
+#page2 h1{
+    font-size: 4vw;
+    color: #434B34;
+    text-align: center;
+    font-weight: 400;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #E3E3C4;
+}
